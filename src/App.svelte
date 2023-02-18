@@ -46,6 +46,7 @@
 		border: none;
 		cursor: pointer;
 		transition: transform 80ms linear, box-shadow 80ms linear;
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	button:active {
