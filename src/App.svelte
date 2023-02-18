@@ -47,10 +47,6 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-	button:active {
-		scale: 0.97;
-	}
-
 	.bpm {
 		margin-top: 2rem;
 		font-size: 3rem;
