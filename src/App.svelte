@@ -38,21 +38,17 @@
 
 	button {
 		background-color: lime;
-		box-shadow: 0em 0em 1em #fff2, 0em 0em 2em #fff1,
-			0.2em 0.2em 2rem #000 inset;
-		width: 10rem;
-		height: 10rem;
+		box-shadow: 0em 0em 2rem #000 inset, 0em 0em 1em #fff2;
+		width: 9rem;
+		height: 9rem;
 		border-radius: 50%;
 		border: none;
 		cursor: pointer;
-		transition: transform 80ms linear, box-shadow 80ms linear;
 		-webkit-tap-highlight-color: transparent;
 	}
 
 	button:active {
-		transform: translateY(0.1rem);
-		box-shadow: 0em 0em 1.2em #fff3, 0em 0em 2.5em #fff2,
-			0.2em 0.2em 2rem #000 inset;
+		scale: 0.97;
 	}
 
 	.bpm {
